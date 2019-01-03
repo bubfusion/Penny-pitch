@@ -66,19 +66,38 @@ int main()
                       num ++;
                     }
                 }
-                    num = 0;
-                    while(num < 3)
-                    {
-                      row = rand()%5;
-                      col = rand()%5;
-                        if (prizes[row][col] == '-')
-                        {
-                          prizes [row][col] = 'A';
-                          num ++;
-                        }
-                    }
-                        num = 0;
+                num = 0;
+                while(num < 3)
+                {
+                  row = rand()%5;
+                  col = rand()%5;
+                  if (prizes[row][col] == '-')
+                  {
+                    prizes [row][col] = 'A';
+                    num ++;
+                  }
+              }
+          num = 0;
+          
+    while(num < 10)
+      {
+        row = rand()%5;
+        col = rand()%5;
 
+            pennies [row][col] = '0';
+            num ++;
+
+}
+  num = 0;
+
+  for (int i = 0; i < 5; i++)
+{
+  for(int j = 0; j < 5; j++)
+  {
+    cout << setw(2) << pennies[i][j];
+  }
+  cout << endl;
+}
 
     for (int i = 0; i < 5; i++)
   {
