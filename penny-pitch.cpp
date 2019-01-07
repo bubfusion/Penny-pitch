@@ -40,50 +40,50 @@ int main()
     }
         num = 0;
 
-        while(num < 3)
+    while(num < 3)
         {
-          row = rand()%5;
-          col = rand()%5;
-            if (prizes[row][col] == '-')
+      row = rand()%5;
+      col = rand()%5;
+      if (prizes[row][col] == '-')
             {
-              prizes [row][col] = 'P';
-              num ++;
+    prizes [row][col] = 'P';
+    num ++;
             }
         }
-            num = 0;
-            while(num < 3)
+    num = 0;
+    while(num < 3)
             {
-              row = rand()%5;
-              col = rand()%5;
-                if (prizes[row][col] == '-')
-                {
-                  prizes [row][col] = 'F';
-                  num ++;
-                }
-            }
-                num = 0;
-                while(num < 3)
-                {
-                  row = rand()%5;
-                  col = rand()%5;
-                    if (prizes[row][col] == '-')
-                    {
-                      prizes [row][col] = 'H';
-                      num ++;
-                    }
-                }
-                num = 0;
-                while(num < 3)
-                {
-                  row = rand()%5;
-                  col = rand()%5;
-                  if (prizes[row][col] == '-')
-                  {
-                    prizes [row][col] = 'A';
-                    num ++;
-                  }
-              }
-          num = 0;
+      row = rand()%5;
+      col = rand()%5;
+        if (prizes[row][col] == '-')
+        {
+          prizes [row][col] = 'F';
+          num ++;
+        }
+    }
+num = 0;
+    while(num < 3)
+      {
+      row = rand()%5;
+      col = rand()%5;
+        if (prizes[row][col] == '-')
+          {
+          prizes [row][col] = 'H';
+          num ++;
+          }
+        }
+num = 0;
+    while(num < 3)
+      {
+      row = rand()%5;
+      col = rand()%5;
+      if (prizes[row][col] == '-')
+      {
+      prizes [row][col] = 'A';
+      num ++;
+      }
+    }
+num = 0;
 
     while(num < 10)
       {
