@@ -9,12 +9,12 @@ int main()
   char prizes[5][5];
   char pennies[5][5];
 
-  int cashPrize;
-  int popcornPrize;
-  int foxPrize;
-  int hamburgerPrize;
-  int airpodPrize;
-  int totalWins;
+  int cashPrize = 0;
+  int popcornPrize = 0;
+  int foxPrize = 0;
+  int hamburgerPrize = 0;
+  int airpodPrize = 0;
+  int totalWins = 0;
 
   int row,col;
   int num = 0;
